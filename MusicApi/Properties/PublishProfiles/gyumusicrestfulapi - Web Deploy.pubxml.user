@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArwMorg03XUWehSob/ZiDrQAAAAACAAAAAAAQZgAAAAEAACAAAABtVqlkqTMTb9+xH+kIriEiHX39b1ctwh2/buxz3O5XyQAAAAAOgAAAAAIAACAAAAC/TjPbrqOOsGPr9AJka+5s+WnIDOkKzctdUyGFuhZOsIAAAACrnA9KpVYxaWvOegyi3gUZ7zHjfXPbKRusIJ3O7quASW9wEwAmmtZOGH8s5qxT+PJQsQD1FzhoESXulAh/gnrJ4Dkd5j3LVwGMbVtiJ1mJd6KbUi8r8MZvgviFhlcOEcQ2/EBZkUqkswv9RovuN1NOLY0xAUD06UII3vpvekKXu0AAAABj8SPida/41UjUp1nlUIj3m1nbEVQJ1OofxZdm5wPwQl/QCjECshSHJpSS8dsXt9dJ/sRIPfp06YQ6DiJttfQm</EncryptedPassword>
+    <History>True|2021-08-16T02:18:17.7140059Z;True|2021-08-16T09:42:58.2278894+08:00;True|2021-08-16T09:41:30.0622874+08:00;True|2021-08-15T17:11:16.7649647+08:00;True|2021-08-15T17:08:01.8177617+08:00;True|2021-08-15T17:07:14.4959832+08:00;False|2021-08-15T17:04:48.2064859+08:00;False|2021-08-15T17:01:12.1887920+08:00;False|2021-08-15T16:57:43.7016823+08:00;False|2021-08-15T16:55:14.7610762+08:00;False|2021-08-15T16:51:32.5146833+08:00;False|2021-08-15T16:50:31.4949738+08:00;False|2021-08-15T16:49:19.9404521+08:00;False|2021-08-15T16:44:22.6561037+08:00;False|2021-08-15T16:38:38.0743312+08:00;False|2021-08-15T16:38:04.8375683+08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MusicApi.Data.ApiDbContext">
+      <Value>Server=tcp:gyumusicapiserver.database.windows.net,1433%3bInitial Catalog=musicdb%3bPersist Security Info=False%3bUser ID=admgyu%3bPassword=Kidrock1432%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
